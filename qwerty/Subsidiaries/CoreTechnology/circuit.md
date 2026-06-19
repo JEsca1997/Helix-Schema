@@ -1,6 +1,7 @@
-# CoreTechnology — Circuit Schema
-
-Role: subsidiary · QWERTY Enterprises
-Frames: cc · cv · vc · vv
-Layers: b · f · m
-
+ï»¿# CoreTechnology â€” Circuit Schema
+Frames: cc Â· cv Â· vc Â· vv
+Governance: centralized / proprietor
+Tier: enterprise
+Parent: QWERTY Enterprises
+Role: Core technology entity
+Source: SrcManager.circuit() â€” derived from DM + TierManager + live src/
