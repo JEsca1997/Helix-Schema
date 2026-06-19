@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" data-tier="free" data-frame="cc" data-mode="ff">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HoneyDev</title>
+  <link rel="stylesheet" href="honeydev.css" />
+</head>
+<body>
+
+  <header class="hd-header">
+    <a class="hd-logo" href="/">HoneyDev</a>
+    <nav class="hd-nav">
+      <a href="#features">Features</a>
+      <a href="#login">Log in</a>
+      <a href="#signup" class="hd-btn hd-btn--sm">Sign up free</a>
+    </nav>
+  </header>
+
+  <!-- Banner ad — full-width, below header -->
+  <div class="hd-ad-slot hd-ad-banner" id="ad-banner">
+    <span>sponsored</span>
+  </div>
+
+  <main id="app">
+
+    <!-- Hero -->
+    <section class="hd-hero">
+      <h1>Build on <span>Helix</span>.<br>Start for free.</h1>
+      <p class="hd-sub">
+        HoneyDev is the developer platform for the Helix SDK.<br>
+        Browse as a guest, or sign up to unlock the Roku transpiler and proof pipeline.
+      </p>
+      <div class="hd-cta-row">
+        <a class="hd-btn" href="#signup">Create account</a>
+        <a class="hd-btn hd-btn--ghost" href="#guest">Continue as guest</a>
+      </div>
+    </section>
+
+    <!-- Guest strip -->
+    <div class="hd-guest-strip">
+      <span>&#127760; <strong>Guest mode</strong> — browser + tokenizer, no account needed.</span>
+      <a class="hd-btn hd-btn--ghost hd-btn--sm" href="#guest" id="guest-btn">Enter as guest</a>
+    </div>
+
+    <!-- Inline ad — between guest strip and auth -->
+    <div class="hd-ad-slot hd-ad-inline" id="ad-inline">
+      <span>sponsored</span>
+    </div>
+
+    <!-- Auth panels -->
+    <section class="hd-auth-section" id="login">
+
+      <!-- Login -->
+      <div class="hd-auth-box">
+        <h2>Log in</h2>
+        <form id="hd-login-form" onsubmit="return false">
+          <div class="hd-field">
+            <label for="li-email">Account</label>
+            <input id="li-email" type="text" placeholder="your account name" autocomplete="username">
+          </div>
+          <div class="hd-field">
+            <label for="li-pass">Password</label>
+            <input id="li-pass" type="password" placeholder="••••••••" autocomplete="current-password">
+          </div>
+          <div class="hd-form-err" id="li-err"></div>
+          <button class="hd-btn hd-form-submit" id="li-submit">Log in</button>
+        </form>
+      </div>
+
+      <!-- Sign up -->
+      <div class="hd-auth-box" id="signup">
+        <h2>Create account <span class="hd-tier-badge">free</span></h2>
+        <form id="hd-signup-form" onsubmit="return false">
+          <div class="hd-field">
+            <label for="su-name">Account name</label>
+            <input id="su-name" type="text" placeholder="yourname" autocomplete="username">
+          </div>
+          <div class="hd-field">
+            <label for="su-email">Email</label>
+            <input id="su-email" type="email" placeholder="you@example.com" autocomplete="email">
+          </div>
+          <div class="hd-field">
+            <label for="su-pass">Password</label>
+            <input id="su-pass" type="password" placeholder="••••••••" autocomplete="new-password">
+          </div>
+          <div class="hd-form-err" id="su-err"></div>
+          <button class="hd-btn hd-form-submit" id="su-submit">Sign up — it's free</button>
+        </form>
+      </div>
+
+    </section>
+
+    <!-- Feature teasers -->
+    <section class="hd-features" id="features">
+      <h2>Unlock after signup</h2>
+      <div class="hd-feature-grid">
+
+        <div class="hd-feature-card">
+          <div class="hd-feature-icon">📺</div>
+          <div class="hd-feature-name">Roku Transpiler</div>
+          <div class="hd-feature-desc">
+            Transpile BrightScript / BRS to the Helix IR and back.
+            Run Roku channel logic through the Ghost ZWC stack machine.
+          </div>
+          <span class="hd-feature-tag">LITE</span>
+        </div>
+
+        <div class="hd-feature-card">
+          <div class="hd-feature-icon">&#9889;</div>
+          <div class="hd-feature-name">Proof Pipeline</div>
+          <div class="hd-feature-desc">
+            Full tokenize → parse → validate → typecheck → compile → execute chain.
+            See every stage of your code as it flows through the Helix pipeline.
+          </div>
+          <div class="hd-pipeline-preview">
+            <span class="hd-pip-stage">tokenize</span>
+            <span class="hd-pip-stage">parse</span>
+            <span class="hd-pip-stage">validate</span>
+            <span class="hd-pip-stage">typecheck</span>
+            <span class="hd-pip-stage">compile</span>
+            <span class="hd-pip-stage">execute</span>
+          </div>
+          <span class="hd-feature-tag">LITE</span>
+        </div>
+
+        <div class="hd-feature-card">
+          <div class="hd-feature-icon">&#128190;</div>
+          <div class="hd-feature-name">WASM + Binary</div>
+          <div class="hd-feature-desc">
+            Compile Helix source to WebAssembly and native binary targets.
+          </div>
+          <span class="hd-feature-tag">PLUS</span>
+        </div>
+
+        <div class="hd-feature-card">
+          <div class="hd-feature-icon">&#128993;</div>
+          <div class="hd-feature-name">Julia Runtime</div>
+          <div class="hd-feature-desc">
+            Direct Julia execution and the full Helix SDK at pro tier.
+          </div>
+          <span class="hd-feature-tag">PRO</span>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="hd-footer">
+    <span>© 2026 HoneyDev</span>
+    <span><a href="/terms">Terms</a> · <a href="/privacy">Privacy</a></span>
+  </footer>
+
+  <script>
+    // Guest button — posts message to helix parent if in webview, else redirects
+    document.getElementById('guest-btn').addEventListener('click', (e) => {
+      e.preventDefault();
+      if (window.__helix_guest__) {
+        window.__helix_guest__();
+      } else {
+        // standalone browser fallback
+        window.location.href = '/guest';
+      }
+    });
+
+    // Login form
+    document.getElementById('li-submit').addEventListener('click', async () => {
+      const account  = document.getElementById('li-email').value.trim();
+      const password = document.getElementById('li-pass').value;
+      const errEl    = document.getElementById('li-err');
+      errEl.textContent = '';
+      if (!account || !password) { errEl.textContent = 'All fields required.'; return; }
+
+      if (window.__helix_login__) {
+        // running inside helix webview — delegate to IPC
+        const res = await window.__helix_login__(account, password);
+        if (!res.ok) { errEl.textContent = res.err || 'Login failed.'; }
+        // on success helix handles redirect
+      } else {
+        // server-side login
+        try {
+          const res = await fetch('/api/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ account, password }),
+          });
+          const data = await res.json();
+          if (data.ok) {
+            window.location.href = `/ff/${data.tier?.toLowerCase() || 'lite'}/`;
+          } else {
+            errEl.textContent = data.err || 'Login failed.';
+          }
+        } catch (e) { errEl.textContent = e.message; }
+      }
+    });
+
+    // Signup form
+    document.getElementById('su-submit').addEventListener('click', async () => {
+      const name     = document.getElementById('su-name').value.trim();
+      const email    = document.getElementById('su-email').value.trim();
+      const password = document.getElementById('su-pass').value;
+      const errEl    = document.getElementById('su-err');
+      errEl.textContent = '';
+      if (!name || !email || !password) { errEl.textContent = 'All fields required.'; return; }
+
+      try {
+        const res = await fetch('/api/signup', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ accountName: name, email, localPassword: password, accountType: 'user', sync: false }),
+        });
+        const data = await res.json();
+        if (data.ok || data.created) {
+          window.location.href = '/ff/lite/';
+        } else {
+          errEl.textContent = data.err || 'Signup failed.';
+        }
+      } catch (e) { errEl.textContent = e.message; }
+    });
+  </script>
+
+</body>
+</html>

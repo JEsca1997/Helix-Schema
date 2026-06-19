@@ -1,0 +1,312 @@
+{
+  "schema": "IPSchema",
+  "version": "1.0.0",
+  "routingFrame": "cv",
+  "surfaceFrame": "cc",
+  "context": "wan",
+  "protocol": "https",
+  "domain": "www.honeydev.io",
+  "port": 443,
+  "tier": "free",
+  "deploymentMode": "CLOUD",
+  "generated": "2026-06-14T06:44:51.322Z",
+  "companies": [
+    {
+      "name": "hawthorn",
+      "type": "Academy",
+      "parent": null,
+      "slug": "hawthorn",
+      "route": "/",
+      "url": "https://www.honeydev.io/",
+      "label": "Hawthorn",
+      "tier": "free",
+      "surfaceFrame": "cc",
+      "routingFrame": "cv",
+      "context": "wan",
+      "paths": {
+        "root": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Academy\\hawthorn",
+        "surface": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Academy\\hawthorn\\src\\c\\cc\\f\\f\\free",
+        "api": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Academy\\hawthorn\\src\\c\\cc\\f\\b\\free",
+        "module": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Academy\\hawthorn\\src\\c\\cc\\f\\m\\free",
+        "transit": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Academy\\hawthorn\\src\\c\\cv\\f\\m\\free"
+      },
+      "disk": {
+        "surface": false,
+        "api": false,
+        "server": false,
+        "module": false,
+        "transit": true
+      }
+    },
+    {
+      "name": "honeydev",
+      "type": "Company",
+      "parent": null,
+      "slug": "honeydev",
+      "route": "/",
+      "url": "https://www.honeydev.io/",
+      "label": "Honeydev",
+      "tier": "free",
+      "surfaceFrame": "cc",
+      "routingFrame": "cv",
+      "context": "wan",
+      "paths": {
+        "root": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev",
+        "surface": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\src\\c\\cc\\f\\f\\free",
+        "api": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\src\\c\\cc\\f\\b\\free",
+        "module": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\src\\c\\cc\\f\\m\\free",
+        "transit": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\src\\c\\cv\\f\\m\\free"
+      },
+      "disk": {
+        "surface": true,
+        "api": true,
+        "server": true,
+        "module": true,
+        "transit": true
+      }
+    },
+    {
+      "name": "BrightBrowser",
+      "type": "Subsidiary",
+      "parent": "honeydev",
+      "slug": "brightbrowser",
+      "route": "/companies/brightbrowser",
+      "url": "https://www.honeydev.io/companies/brightbrowser",
+      "label": "BrightBrowser",
+      "tier": "free",
+      "surfaceFrame": "cc",
+      "routingFrame": "cv",
+      "context": "wan",
+      "paths": {
+        "root": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\BrightBrowser",
+        "surface": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\BrightBrowser\\src\\c\\cc\\f\\f\\free",
+        "api": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\BrightBrowser\\src\\c\\cc\\f\\b\\free",
+        "module": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\BrightBrowser\\src\\c\\cc\\f\\m\\free",
+        "transit": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\BrightBrowser\\src\\c\\cv\\f\\m\\free"
+      },
+      "disk": {
+        "surface": false,
+        "api": false,
+        "server": false,
+        "module": false,
+        "transit": true
+      }
+    },
+    {
+      "name": "Clutch",
+      "type": "Subsidiary",
+      "parent": "honeydev",
+      "slug": "clutch",
+      "route": "/companies/clutch",
+      "url": "https://www.honeydev.io/companies/clutch",
+      "label": "Clutch",
+      "tier": "free",
+      "surfaceFrame": "cc",
+      "routingFrame": "cv",
+      "context": "wan",
+      "paths": {
+        "root": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Clutch",
+        "surface": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Clutch\\src\\c\\cc\\f\\f\\free",
+        "api": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Clutch\\src\\c\\cc\\f\\b\\free",
+        "module": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Clutch\\src\\c\\cc\\f\\m\\free",
+        "transit": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Clutch\\src\\c\\cv\\f\\m\\free"
+      },
+      "disk": {
+        "surface": false,
+        "api": false,
+        "server": false,
+        "module": false,
+        "transit": true
+      }
+    },
+    {
+      "name": "Cypher",
+      "type": "Subsidiary",
+      "parent": "honeydev",
+      "slug": "cypher",
+      "route": "/companies/cypher",
+      "url": "https://www.honeydev.io/companies/cypher",
+      "label": "Cypher",
+      "tier": "free",
+      "surfaceFrame": "cc",
+      "routingFrame": "cv",
+      "context": "wan",
+      "paths": {
+        "root": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Cypher",
+        "surface": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Cypher\\src\\c\\cc\\f\\f\\free",
+        "api": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Cypher\\src\\c\\cc\\f\\b\\free",
+        "module": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Cypher\\src\\c\\cc\\f\\m\\free",
+        "transit": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Cypher\\src\\c\\cv\\f\\m\\free"
+      },
+      "disk": {
+        "surface": false,
+        "api": false,
+        "server": false,
+        "module": false,
+        "transit": true
+      }
+    },
+    {
+      "name": "Dabbilty",
+      "type": "Subsidiary",
+      "parent": "honeydev",
+      "slug": "dabbilty",
+      "route": "/companies/dabbilty",
+      "url": "https://www.honeydev.io/companies/dabbilty",
+      "label": "Dabbilty",
+      "tier": "free",
+      "surfaceFrame": "cc",
+      "routingFrame": "cv",
+      "context": "wan",
+      "paths": {
+        "root": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Dabbilty",
+        "surface": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Dabbilty\\src\\c\\cc\\f\\f\\free",
+        "api": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Dabbilty\\src\\c\\cc\\f\\b\\free",
+        "module": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Dabbilty\\src\\c\\cc\\f\\m\\free",
+        "transit": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Dabbilty\\src\\c\\cv\\f\\m\\free"
+      },
+      "disk": {
+        "surface": false,
+        "api": false,
+        "server": false,
+        "module": false,
+        "transit": true
+      }
+    },
+    {
+      "name": "FAM",
+      "type": "Subsidiary",
+      "parent": "honeydev",
+      "slug": "fam",
+      "route": "/companies/fam",
+      "url": "https://www.honeydev.io/companies/fam",
+      "label": "FAM",
+      "tier": "free",
+      "surfaceFrame": "cc",
+      "routingFrame": "cv",
+      "context": "wan",
+      "paths": {
+        "root": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\FAM",
+        "surface": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\FAM\\src\\c\\cc\\f\\f\\free",
+        "api": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\FAM\\src\\c\\cc\\f\\b\\free",
+        "module": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\FAM\\src\\c\\cc\\f\\m\\free",
+        "transit": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\FAM\\src\\c\\cv\\f\\m\\free"
+      },
+      "disk": {
+        "surface": false,
+        "api": false,
+        "server": false,
+        "module": false,
+        "transit": true
+      }
+    },
+    {
+      "name": "Helix",
+      "type": "Subsidiary",
+      "parent": "honeydev",
+      "slug": "helix",
+      "route": "/companies/helix",
+      "url": "https://www.honeydev.io/companies/helix",
+      "label": "Helix",
+      "tier": "free",
+      "surfaceFrame": "cc",
+      "routingFrame": "cv",
+      "context": "wan",
+      "paths": {
+        "root": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Helix",
+        "surface": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Helix\\src\\c\\cc\\f\\f\\free",
+        "api": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Helix\\src\\c\\cc\\f\\b\\free",
+        "module": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Helix\\src\\c\\cc\\f\\m\\free",
+        "transit": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Helix\\src\\c\\cv\\f\\m\\free"
+      },
+      "disk": {
+        "surface": false,
+        "api": false,
+        "server": false,
+        "module": false,
+        "transit": true
+      }
+    },
+    {
+      "name": "Rasta",
+      "type": "Subsidiary",
+      "parent": "honeydev",
+      "slug": "rasta",
+      "route": "/companies/rasta",
+      "url": "https://www.honeydev.io/companies/rasta",
+      "label": "Rasta",
+      "tier": "free",
+      "surfaceFrame": "cc",
+      "routingFrame": "cv",
+      "context": "wan",
+      "paths": {
+        "root": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Rasta",
+        "surface": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Rasta\\src\\c\\cc\\f\\f\\free",
+        "api": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Rasta\\src\\c\\cc\\f\\b\\free",
+        "module": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Rasta\\src\\c\\cc\\f\\m\\free",
+        "transit": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\Rasta\\src\\c\\cv\\f\\m\\free"
+      },
+      "disk": {
+        "surface": false,
+        "api": false,
+        "server": false,
+        "module": false,
+        "transit": true
+      }
+    },
+    {
+      "name": "SeshStudios",
+      "type": "Subsidiary",
+      "parent": "honeydev",
+      "slug": "seshstudios",
+      "route": "/companies/seshstudios",
+      "url": "https://www.honeydev.io/companies/seshstudios",
+      "label": "SeshStudios",
+      "tier": "free",
+      "surfaceFrame": "cc",
+      "routingFrame": "cv",
+      "context": "wan",
+      "paths": {
+        "root": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\SeshStudios",
+        "surface": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\SeshStudios\\src\\c\\cc\\f\\f\\free",
+        "api": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\SeshStudios\\src\\c\\cc\\f\\b\\free",
+        "module": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\SeshStudios\\src\\c\\cc\\f\\m\\free",
+        "transit": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\honeydev\\Subsidiaries\\SeshStudios\\src\\c\\cv\\f\\m\\free"
+      },
+      "disk": {
+        "surface": false,
+        "api": false,
+        "server": false,
+        "module": false,
+        "transit": true
+      }
+    },
+    {
+      "name": "qwerty senpai",
+      "type": "Company",
+      "parent": null,
+      "slug": "qwerty-senpai",
+      "route": "/",
+      "url": "https://www.honeydev.io/",
+      "label": "Qwerty Senpai",
+      "tier": "free",
+      "surfaceFrame": "cc",
+      "routingFrame": "cv",
+      "context": "wan",
+      "paths": {
+        "root": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\qwerty senpai",
+        "surface": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\qwerty senpai\\src\\c\\cc\\f\\f\\free",
+        "api": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\qwerty senpai\\src\\c\\cc\\f\\b\\free",
+        "module": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\qwerty senpai\\src\\c\\cc\\f\\m\\free",
+        "transit": "F:\\helix\\accounts\\Enterprise\\Owners\\Personal\\escamillajoseph44\\Organizations\\Company\\qwerty senpai\\src\\c\\cv\\f\\m\\free"
+      },
+      "disk": {
+        "surface": false,
+        "api": false,
+        "server": false,
+        "module": false,
+        "transit": true
+      }
+    }
+  ]
+}

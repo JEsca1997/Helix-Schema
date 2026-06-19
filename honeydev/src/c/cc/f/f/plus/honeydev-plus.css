@@ -1,0 +1,26 @@
+/* honeydev-plus.css — cc/f/f/plus — inherits lite, adds SDK/WASM layer */
+@import '../lite/honeydev-lite.css';
+
+:root {
+  --hd-accent:  #7ecfff;
+  --hd-tier-bg: #001020;
+  --hd-tier-fg: #7ecfff;
+}
+
+.hd-sdk-panel {
+  margin-top: 1.5rem;
+  background: var(--hd-card-bg);
+  border: 1px solid #1a2a3a;
+  border-radius: var(--hd-radius);
+  padding: 1.25rem;
+}
+.hd-sdk-panel pre {
+  background: #090909;
+  border: 1px solid var(--hd-border);
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  font-family: 'Cascadia Code','Fira Code',monospace;
+  font-size: 0.8rem;
+  color: #a8edea;
+  overflow-x: auto;
+}

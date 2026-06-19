@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" data-tier="lite" data-frame="cc" data-mode="ff">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HoneyDev · Lite</title>
+  <!-- inherit free base, then lite layer -->
+  <link rel="stylesheet" href="../free/honeydev.css" />
+  <link rel="stylesheet" href="honeydev-lite.css" />
+</head>
+<body>
+  <header class="hd-header">
+    <a class="hd-logo" href="/">HoneyDev</a>
+    <nav class="hd-nav">
+      <span id="hd-user" style="color:#f0f0f0;font-size:.85rem"></span>
+      <span class="hd-tier-badge">lite</span>
+      <a href="/account/logout" style="margin-left:1rem">Sign out</a>
+    </nav>
+  </header>
+
+  <main id="app">
+    <section class="hd-hero" style="padding:2rem 0 1rem;text-align:left">
+      <h1 style="font-size:2rem">Dashboard</h1>
+      <p class="hd-sub">lite tier · cc · k4=01</p>
+    </section>
+
+    <div class="hd-dashboard">
+
+      <div class="hd-card">
+        <div class="hd-card-title">Projects</div>
+        <div class="hd-card-body" id="hd-projects">
+          <p style="color:#555;font-size:.85rem">No projects yet. <a href="/projects/new" style="color:#f5c518">Create one</a></p>
+        </div>
+      </div>
+
+      <div class="hd-card">
+        <div class="hd-card-title">Tools · lite</div>
+        <ul class="hd-tool-list">
+          <li><a href="/tools/tokenizer">Tokenizer <span class="hd-tool-tag">free</span></a></li>
+          <li><a href="/tools/runner">Helix Runner <span class="hd-tool-tag">free</span></a></li>
+          <li><a href="/tools/python">Python <span class="hd-tool-tag">lite</span></a></li>
+          <li><a href="/tools/sage">Sage <span class="hd-tool-tag">lite</span></a></li>
+          <li><a href="/tools/java">Java <span class="hd-tool-tag">lite</span></a></li>
+        </ul>
+      </div>
+
+      <div class="hd-card">
+        <div class="hd-card-title">Activity</div>
+        <div class="hd-card-body" id="hd-activity">
+          <p style="color:#555;font-size:.85rem">No recent activity.</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="hd-footer">
+    <span>© 2026 HoneyDev · <a href="/tier">upgrade</a></span>
+  </footer>
+
+  <script>
+    // hydrate user display from session cookie/header
+    const user = document.cookie.match(/hd_user=([^;]+)/)?.[1]
+      || sessionStorage.getItem('hd_user') || '';
+    if (user) document.getElementById('hd-user').textContent = decodeURIComponent(user);
+  </script>
+</body>
+</html>

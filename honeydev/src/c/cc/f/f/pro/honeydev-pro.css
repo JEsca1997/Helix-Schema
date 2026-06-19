@@ -1,0 +1,38 @@
+/* honeydev-pro.css — cc/f/f/pro — inherits plus, adds Julia/pipeline layer */
+@import '../plus/honeydev-plus.css';
+
+:root {
+  --hd-accent:  #ce93d8;
+  --hd-tier-bg: #0d0018;
+  --hd-tier-fg: #ce93d8;
+}
+
+.hd-console {
+  background: #050505;
+  border: 1px solid #2a1a3a;
+  border-radius: var(--hd-radius);
+  padding: 1rem;
+  font-family: 'Cascadia Code','Fira Code',monospace;
+  font-size: 0.8rem;
+  min-height: 120px;
+}
+.hd-console-prompt { color: var(--hd-accent); }
+.hd-console-out    { color: #a8edea; }
+.hd-console-err    { color: #ef5350; }
+
+.hd-pipeline-bar {
+  display: flex;
+  gap: 4px;
+  margin-top: 0.75rem;
+  flex-wrap: wrap;
+}
+.hd-stage {
+  padding: 3px 10px;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: #1a0828;
+  color: var(--hd-accent);
+  border: 1px solid #2a1238;
+}
